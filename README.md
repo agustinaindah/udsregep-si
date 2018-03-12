@@ -2,7 +2,7 @@ UD SREGEP
 ========================
 
 * Since : July, 12 2017
-* Author : Indah <<agustinaindah2493@gmail.com>>
+* Author : Agustina Indah <<agustinaindah2493@gmail.com>>
 * Copyright : 2017 PT. Netindo Solution Group
 
 ----------
