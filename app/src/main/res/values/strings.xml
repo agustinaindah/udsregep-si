@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">UD.SREGEP</string>
+
+    <string name="base_url">https://travel.netsolmind.com/</string>
+    <!--<string name="base_url">https://travel.netsolmind.com/</string>-->
+    <!--<string name="base_url">http://192.168.100.7/sistem-infomasi-ud-sregep/</string>-->
+    <string name="X_API_KEY">12345</string>
+
+    <string name="label_chat">Chat</string>
+    <string name="loading">Loading...</string>
+    <string name="transition_string">transition</string>
+    <string name="no_data">Tidak ada data</string>
+
+    <string name="label_form_submission">Form Submission</string>
+    <string name="label_form_pengambilan">Form Pengambilan</string>
+    <string name="info">Info</string>
+    <string name="msg_empty">Harap diisi</string>
+    <string name="msg_confirmed">Permintaan anda akan diproses segera mungkin, Terimakasih :)</string>
+
+    <!--option camera -->
+    <string name="label_take_photo">Ambil Gambar</string>
+    <string name="label_choose_gallery">Pilih dari Gallery</string>
+    <string name="label_cancel">Batal</string>
+    <string name="label_add_photo">Tambah Gambar</string>
+
+</resources>

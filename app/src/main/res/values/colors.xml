@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006837</color>
+    <color name="colorPrimaryDark">#00592f</color>
+    <color name="colorAccent">#019f55</color>
+
+    <color name="material_red">#F44336</color>
+    <color name="material_pink">#E91E63</color>
+    <color name="material_purple">#9C27B0</color>
+    <color name="material_purple_deep">#673AB7</color>
+    <color name="material_indigo">#3F51B5</color>
+    <color name="material_blue">#2196F3</color>
+    <color name="material_blue_light">#03A9F4</color>
+    <color name="material_cyan">#00BCD4</color>
+    <color name="material_teal">#009688</color>
+    <color name="material_green">#4CAF50</color>
+    <color name="material_green_light">#8BC34A</color>
+    <color name="material_lime">#CDDC39</color>
+    <color name="material_yellow">#FFEB3B</color>
+    <color name="material_amber">#FFC107</color>
+    <color name="material_orange">#FF9800</color>
+    <color name="material_orange_deep">#FF5722</color>
+    <color name="material_brown">#795548</color>
+    <color name="material_grey">#795548</color>
+    <color name="material_grey_blue">#607D8B</color>
+
+    <color name="flat_clouds">#ecf0f1</color>
+    <color name="grey_review">#fcfafa</color>
+    <color name="grey_300">#e0e0e0</color>
+
+    <color name="colorTextPrimary">#E82429</color>
+    <color name="colorTextPrimaryDark">#960004</color>
+    <color name="colorTextSoft">#F64E52</color>
+
+    <color name="newProduct">#faf2bf</color>
+    <color name="promoProduct">#F8FFB2</color>
+
+    <color name="color_twitter">#1da1f3</color>
+    <color name="color_facebook">#3b5999</color>
+
+</resources>

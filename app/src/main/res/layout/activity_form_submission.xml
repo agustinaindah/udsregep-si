@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatchLayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/MatchWrapLayout"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <android.support.design.widget.TextInputLayout style="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/edtFormOrderNama"
+                style="@style/AppTheme.EditTextMaterial"
+                android:hint="Nama" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            style="@style/MatchWrapLayout"
+            android:textStyle="italic"
+            android:textSize="10sp"
+            android:text="*Wajib diisi"/>
+
+        <!--<android.support.design.widget.TextInputLayout style="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/edtFormOrderNamaPerusahaan"
+                style="@style/AppTheme.EditTextMaterial"
+                android:hint="Nama Perusahaan " />
+        </android.support.design.widget.TextInputLayout>
+-->
+        <android.support.design.widget.TextInputLayout style="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/edtFormOrderNoHP"
+                style="@style/AppTheme.EditTextMaterial"
+                android:inputType="phone"
+                android:hint="No Telepon" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            style="@style/MatchWrapLayout"
+            android:textStyle="italic"
+            android:textSize="10sp"
+            android:text="*Wajib diisi"/>
+
+        <android.support.design.widget.TextInputLayout style="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/edtFormOrderAlamat"
+                style="@style/AppTheme.EditTextMaterial"
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:gravity="start"
+                android:inputType="textMultiLine"
+                android:hint="Alamat " />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            style="@style/MatchWrapLayout"
+            android:textStyle="italic"
+            android:textSize="10sp"
+            android:text="*Wajib diisi"/>
+
+        <android.support.design.widget.TextInputLayout style="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/edtKeterangan"
+                style="@style/AppTheme.EditTextMaterial"
+                android:layout_width="match_parent"
+                android:layout_height="130sp"
+                android:gravity="start"
+                android:hint="Keterangan"
+                android:inputType="textMultiLine" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            style="@style/MatchWrapLayout"
+            android:textStyle="italic"
+            android:textSize="10sp"
+            android:text="*Keterangan tambahan dan jumlah karung yang akan diambil"/>
+
+        <RelativeLayout
+            style="@style/WrapWrapLayout"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imgFormOrder"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/no_image" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimary"
+                android:text="Browse"
+                android:textColor="@android:color/white"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/imgFormOrder"
+                android:layout_alignRight="@+id/imgFormOrder"
+                android:layout_alignEnd="@+id/imgFormOrder" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/MatchWrapLayout"
+            android:layout_marginTop="10dp"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</ScrollView>
